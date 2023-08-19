@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    background-color: rgb(55, 0, 255);
+  }
+  .about,
+  .portfolio,
+  .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about h2,
+  .portfolio h2,
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .intro {
+    text-align: center;
+    top: 0;
+    background: #e0ebe8;
+    min-height: 30vh;
+    padding-top: 30vh;
+  }
+  
+  .intro p {
+    color: green;
+  }
